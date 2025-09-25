@@ -1,0 +1,30 @@
+package PrimerioProjeto;
+
+import java.util.Scanner;
+
+public class For2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		for(int cont = 1; cont <=10; cont++) {
+			System.out.println(cont);
+		}
+		
+		System.out.println("=============================");
+		
+		System.out.println("Até que número você quer que eu conte?");
+		int numero = scanner.nextInt();
+		for(int vez = 1; vez <= numero; vez++) {
+			System.out.println(vez);
+		}
+		
+		
+		
+		
+		
+		
+	
+		
+	}
+}

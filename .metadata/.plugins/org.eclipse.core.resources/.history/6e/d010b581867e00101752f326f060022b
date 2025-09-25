@@ -1,0 +1,13 @@
+package PrimerioProjeto;
+
+public class Biblioteca {
+
+	public static void main(String[] args) {
+		Scanner scanner = new scanner(System.in);
+		//Print - mostra o texto sem pular linha
+		System.out.print("Olá");
+		System.out.println("Mundo");
+
+	}
+
+}

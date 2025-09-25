@@ -1,0 +1,92 @@
+import java.util.Scanner;
+
+public class Lista15 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+
+		//5
+		int[] num3 = new int[9];
+		for(int i = 0; i < 8; i++) {
+			System.out.print("Digite qualquer número["+i+"]: ");
+			num3[i] = scanner.nextInt();
+		}
+		for(int i = 8; i < 9; i++) {
+			System.out.print("Digite um número extra["+i+"]:");
+			num3[i] = scanner.nextInt();
+			if(num3[i] == num3[i]) {
+				System.out.println("Esse número existe no vetor");
+			}else {
+				System.out.println("Esse número não existe no vetor");
+			}
+		}
+		
+		//1
+		String[] frutas = new String [5];
+		for(int f = 0; f <5; f++) {
+			System.out.print("Frutas["+f+"]: ");
+			frutas[f] = scanner.next();
+		}
+		for(int f = 0; f <5; f++) {
+		System.out.println("[" + f + "]" + frutas[f]);
+		}
+		
+		System.out.println("=============================");
+		
+		//2
+		int[]num = new int [10];
+		for(int i = 0; i <10; i++) {
+			System.out.print("Números["+i+"]: ");
+			num[i] = scanner.nextInt();
+		}
+		
+		System.out.println("=============================");
+		
+		for(int i = 0; i <10; i++) {
+			System.out.println("Posição["+i+"]:"+num[i]);
+		}
+		
+		System.out.println("=============================");
+		
+		//3
+		int[] num1 = new int [7];
+		for(int i = 0; i < 7; i++) {
+			System.out.print("Números["+i+"]: ");
+			num1[i] = scanner.nextInt();
+			
+		System.out.println("=============================");
+		
+		}
+		for(int i = 6; i > 0; i--) {
+			System.out.println("Posição["+i+"]: "+num1[i]);
+		}
+		System.out.println("=============================");
+		
+		//4
+		int[] num2 = new int [10];
+		for(int i = 0; i < 10; i++) {
+			System.out.print("Digite qualquer número ["+i+"]:");
+			num2[i] = scanner.nextInt();
+			if(num2[i] > 100) {
+				System.out.println("Maior do que 100");
+			}
+		}
+
+		System.out.println("=============================");
+		
+		//5
+		
+		System.out.println("=============================");
+		
+		//6
+		
+		System.out.println("=============================");
+		
+		//7
+		
+		System.out.println("=============================");
+		
+		//8
+		
+	}
+}

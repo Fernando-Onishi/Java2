@@ -1,0 +1,28 @@
+package PrimerioProjeto;
+
+import java.util.Scanner;
+
+public class For2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("=============================");
+		
+		for(int cont = 1; cont <=10; cont++) {
+			System.out.println(cont);
+		}
+		
+		System.out.println("=============================");
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+	}
+}

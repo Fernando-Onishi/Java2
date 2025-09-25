@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Lista15 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+
+		
+		
+		//1
+		String[] frutas = new String [5];
+		for(int f = 0; f <=5; f++) {
+			System.out.print("Frutas["+"]: ");
+			frutas[f] = scanner.next();
+			System.out.println(frutas[f]);
+		}
+		
+		
+	}
+
+}

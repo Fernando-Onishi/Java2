@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Lista13 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		
+		
+		//1
+		for(int cont = 10; cont <=30; cont++) {
+			System.out.println(cont);
+		}
+		
+		System.out.println("=======================");
+		
+		//2
+		for(int cont1 = 1; cont1 <=10; cont1++){
+			System.out.print("Digite uma idade \nR:");
+			int idade = scanner.nextInt();
+			if(idade <18) {
+				System.out.println("Menor de idade");
+			}else {
+				System.out.println("Maior de idade");
+			}
+			}
+		
+	
+	
+	}
+}

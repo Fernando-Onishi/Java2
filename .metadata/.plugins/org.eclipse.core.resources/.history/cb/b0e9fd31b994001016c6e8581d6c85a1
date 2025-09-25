@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Lista12 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+		
+		//1
+		int numero = 10;
+		do {
+			System.out.println(numero);
+			numero++;
+		}while(numero <=30);
+		System.out.println("=======================");
+		
+		//2
+		int numero1;
+		do {
+			System.out.print("Informe um número até for o número correto :\nR: ");
+			numero1 = scanner.nextInt();
+		}while(numero1 !=5);
+	}
+
+}

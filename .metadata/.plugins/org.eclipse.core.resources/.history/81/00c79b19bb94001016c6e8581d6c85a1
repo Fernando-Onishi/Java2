@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class Lista12 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+		
+		int leitura;
+		int dias = 1;
+		int leituraTotal = 0;
+		do { 
+			System.out.print("Quantas páginas foram lidas hoje? \n:R");
+			leitura = scanner.nextInt();
+			leituraTotal = leituraTotal + leitura;
+			dias++;
+		}while(dias <=7);
+		System.out.println("Na semana você leu "+leituraTotal+" páginas..");
+		
+		//1
+		int numero = 10;
+		do {
+			System.out.println(numero);
+			numero++;
+		}while(numero <=30);
+		System.out.println("=======================");
+		
+		//2
+		int numero1;
+		do {
+			System.out.print("Informe um número até for o número correto :\nR: ");
+			numero1 = scanner.nextInt();
+		}while(numero1 !=5);
+		System.out.println("Acertou o número!!");
+		
+		//3
+		int peso;
+		do {
+		System.out.print("Digite o peso da mala em kg \nR:");
+		peso = scanner.nextInt();
+		if(peso >=23) {
+			System.out.println("Peso excedido!");
+		}
+		}while(peso >=23);
+		System.out.println("Peso dentro do limite..");
+		
+		//4
+		
+	}
+}
