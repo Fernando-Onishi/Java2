@@ -97,6 +97,7 @@ public class Lista15 {
 		System.out.println("=============================");
 		
 		//7
+		
 		int[] idade1 = new int[10];
 		for(int i = 0; i < 10; i++) {
 			System.out.print("Digite sua idade["+i+"]:");
